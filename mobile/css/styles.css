@@ -1,0 +1,175 @@
+/***************************
+General Styles
+****************************/
+body {
+	font: 1.2em 'Open Sans Condensed', sans-serif;
+	background-color:#000;
+	color:#fff;
+	font-size:1em;
+}
+
+html {
+	-webkit-text-size-adjust: none;
+}
+
+#container {
+	width:95%;
+	margin: 0 auto;
+}
+
+#content {
+	width: auto;
+	float: none;
+	margin: 20px 0;
+	background: #fff;
+	padding: 3% 4%;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.4);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.4);
+	box-shadow: 0 1px 3px rgba(0,0,0,.4);
+	color:#000;
+}
+
+#main-nav {
+	background: #faa839;
+	position: static;
+	left: 0;
+	bottom: 0;
+	/* rounded corner */
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+
+
+#main-nav a {
+	font-size: 90%;
+	padding: 10px 8px;
+	color: #000;
+	font-weight: bold;
+	display: block;
+	line-height:100%;
+}
+
+#main-nav li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	position: relative;
+}	
+
+#header {
+	height: auto;
+	position:relative;
+}
+	
+#site-name {
+	margin: 5px 0px 5px 0;
+	position: static;
+}
+
+#site-description {
+	margin: 0 0 15px;
+	position: static;
+	font-size:.8em;
+	line-height:100%;
+}
+
+#sidebar {
+	width: 100%;
+	float: none;
+	margin: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	line-height:1.4em;
+	margin: 20px 0 .4em;
+}
+
+h1 {
+	font-size:2em;
+}
+
+h2 {
+	font-size:1.5em;
+}
+
+h4 { 
+	font-size:1.4em;
+}
+
+ul {
+	line-height:160%; 
+}
+
+p {
+	padding-top:10px;
+}
+
+#footer {
+	clear: both;
+}
+
+
+
+.post-title {
+	margin:0 0 5px;
+	padding:0;
+}
+
+.widget-title {
+	margin: 0 0 5px;
+	padding:0;
+}
+
+.widget {
+	background: #fff;
+	margin: 0 0 30px;
+	padding: 10px 20px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.4);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.4);
+	box-shadow: 0 1px 3px rgba(0,0,0,.4);
+	color:#000;
+}
+
+.widget li {
+	margin: 0;
+	padding: 6px 0;
+	list-style: none;
+	clear: both;
+	border-top: solid 1px #eee;
+}
+
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.clearfix { display: inline-block; }
+.clearfix { display: block; zoom: 1; }
+
+
+/* RESPONSIVE MEDIA */
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
+
+.video {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.video iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
