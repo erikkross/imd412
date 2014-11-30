@@ -4,13 +4,30 @@
         background: #000 url(../images/background.jpg) no-repeat center top;
     }
 
-	#content {
+    #content {
 		width: 60%;
 		padding: 3% 4%;
 		float:left;
 	}
-	
-	#header {
+
+	#sidebar {
+		width: 30%;
+		float: right;
+		margin:20px 0 30px;
+	}
+
+    .widget {
+		padding: 8% 7%;
+		margin-bottom: 10px;
+	}
+
+    #main-nav a {
+		/* make font size larger and add some more padding to make the navigation bar a bit bigger*/
+		font-size:110%; 
+        padding: 14px 15px;
+	}
+
+    #header {
 		height:140px;
 	}
 	
@@ -24,31 +41,13 @@
 		font-size:1.1em;
 		top:35px;
 	}
-	
-	#sidebar {
-		width: 30%;
-		float: right;
-		margin:20px 0 30px;
-	}
-	
-	.widget {
-		padding: 8% 7%;
-		margin-bottom: 10px;
-	}
 
-	#main-nav {
+    #main-nav {
 		position: absolute;
 		width:100%;
 	}
-	
-	#main-nav a {
-		/* make font size larger and add some more padding to make the navigation bar a bit bigger*/
-		font-size:110%; 
-        padding: 14px 15px;
-	}
 
 }
-
 
 /*980 and above */
 @media screen and (min-width: 980px) {
